@@ -4,6 +4,7 @@ export default function ContactMe() {
       <p>
         Contact Me
       </p>
+      {/* add form with name, email (with validation), message, submit/send button */}
     </div>
   );
 }

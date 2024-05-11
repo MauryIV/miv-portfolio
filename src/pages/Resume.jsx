@@ -4,6 +4,7 @@ export default function Resume() {
       <p>
         Resume
       </p>
+      {/* link to download resume then a list of languages and libraries separated by front and back end */}
     </div>
   );
 }

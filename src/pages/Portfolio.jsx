@@ -4,6 +4,7 @@ export default function Portfolio() {
       <p>
         Portfolio
       </p>
+      {/* add roughly 6 boxes with images that link to project and github logo to the corresponding project on github */}
     </div>
   );
 }

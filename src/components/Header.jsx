@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export default function Nav() {
-  // The Navbar UI component will render each of the Link elements in the links prop
+export default function Header() {
   const links=[
     <Link key={1} className="nav-link text-light" to="/">
       About Me
@@ -19,7 +18,8 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg bg-secondary">
       <div className="container-fluid">
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <h1 className="flex-grow-1">Maury Hughes IV</h1>
+        <div id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             {links.map((link) => (
               <li key={link.key} className="nav-item">
