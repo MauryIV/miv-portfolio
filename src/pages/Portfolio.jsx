@@ -63,6 +63,7 @@ export default function Portfolio() {
           <div key={index} className="col-lg-4 col-md-6 mb-4">
             <div className="card h-100 position-relative">
               <a
+                className="hoverBox"
                 href={project.projectLink}
                 target="_blank"
                 rel="noopener noreferrer"

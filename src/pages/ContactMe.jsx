@@ -88,7 +88,7 @@ export default function ContactMe() {
             placeholder="Feel free to write me a message, I'll respond shortly!"
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button id="sendEmail" type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>

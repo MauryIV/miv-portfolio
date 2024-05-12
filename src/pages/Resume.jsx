@@ -5,7 +5,7 @@ export default function Resume() {
     <div className="container pt-4">
       <h2>Resume</h2>
       <p>Download my
-      <a href={MyResume} download> resume</a>
+      <a id="resume" href={MyResume} download> resume</a>
       </p>
       <h3>Skills</h3>
       <h4>Front-end</h4>
