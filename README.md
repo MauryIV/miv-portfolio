@@ -47,7 +47,11 @@ If you want to reference this for your own portfolio, would be useful for that. 
 
 ## Visuals
 
-NA
+![Screenshot 2024-05-12 at 2 11 13 PM](https://github.com/MauryIV/miv-portfolio/assets/146037880/7ff3852c-6a8e-4ff1-99b2-4177b97acdc4)
+![Screenshot 2024-05-12 at 2 11 21 PM](https://github.com/MauryIV/miv-portfolio/assets/146037880/7c022d9f-2310-4399-bfd9-b9f6253f1de7)
+![Screenshot 2024-05-12 at 2 11 29 PM](https://github.com/MauryIV/miv-portfolio/assets/146037880/cf273e24-fa83-464d-b242-744fa8d582aa)
+![Screenshot 2024-05-12 at 2 11 37 PM](https://github.com/MauryIV/miv-portfolio/assets/146037880/b6001e57-c203-48cc-b9b4-5b11b4c36f4c)
+
 
 <a id="tests"></a>
 
