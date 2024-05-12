@@ -3,11 +3,12 @@ import MyResume from '../assets/MauryHughesResume.pdf';
 export default function Resume() {
   return (
     <div className="container pt-4">
-      <a href={MyResume} download>
-        Feel free to download my resume.
-      </a>
-      <h2 className="pt-2">Skills</h2>
-      <h3>Front-end</h3>
+      <h2>Resume</h2>
+      <p>Download my
+      <a href={MyResume} download> resume</a>
+      </p>
+      <h3>Skills</h3>
+      <h4>Front-end</h4>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -21,7 +22,7 @@ export default function Resume() {
         <li>Third-Party APIs</li>
         <li>Server-Side APIs</li>
       </ul>
-      <h3>Back-end</h3>
+      <h4>Back-end</h4>
       <ul>
         <li>Node.js</li>
         <li>Express</li>
