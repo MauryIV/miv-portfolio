@@ -58,6 +58,17 @@ button:focus-visible {
   text-indent: 4%;
 }
 
+.portImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.portGithub {
+  width: 42px
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

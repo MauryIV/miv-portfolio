@@ -1,5 +1,5 @@
-import githubLogo from '../assets/github-mark.svg';
-import linkedInLogo from '../assets/linkedin-svgrepo-com.svg';
+import githubLogo from '../assets/svgs/github-mark.svg';
+import linkedInLogo from '../assets/svgs/linkedin-svgrepo-com.svg';
 
 export default function Footer() {
   return (
