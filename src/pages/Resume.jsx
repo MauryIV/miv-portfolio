@@ -1,13 +1,28 @@
-import MyResume from '../assets/pdfs/MauryHughesResume.pdf';
+import MyResume from "../assets/pdfs/MauryHughesResume.pdf";
 
 export default function Resume() {
   return (
     <div className="container pt-4">
       <h2>Resume</h2>
-      <p>Download my
-      <a id="resume" href={MyResume} download> resume</a>
+      <p>
+        Download my
+        <a id="resume" href={MyResume} download>
+          {" "}
+          resume
+        </a>
       </p>
       <h3>Skills</h3>
+      <h4>Professional</h4>
+      <ul>
+        <li>Communication</li>
+        <li>Active Listening</li>
+        <li>Problem Solving</li>
+        <li>Leadership</li>
+        <li>Soft Skills</li>
+        <li>Empathy</li>
+        <li>Project Management</li>
+        <li>Time Management</li>
+      </ul>
       <h4>Front-end</h4>
       <ul>
         <li>HTML</li>

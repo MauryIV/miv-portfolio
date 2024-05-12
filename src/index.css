@@ -81,20 +81,39 @@ button:focus-visible {
 }
 
 #resume {
-  color: #7728A4;
+  color: #7728a4;
 }
 #resume:hover {
-  color: #42F0DE;
+  color: #42f0de;
 }
 
 #sendEmail {
-  background-color: #7728A4;
-  border-color: #2D3339;
+  background-color: #7728a4;
+  border-color: #2d3339;
 }
 #sendEmail:hover {
-  background-color: #42F0DE;
-  border-color: #2D3339;
-  color: #2D3339;
+  background-color: #42f0de;
+  border-color: #2d3339;
+  color: #2d3339;
+}
+
+.page {
+  color: #521c73;
+}
+
+.nav-link:hover {
+  color: #42f0de;
+}
+
+#about-me {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#profile-pic {
+  margin-right: 10px;
+  height: auto;
+  float: left;
 }
 
 @media (prefers-color-scheme: light) {
@@ -107,5 +126,29 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 500px) {
+  #nameTitle {
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-item {
+    margin-inline: 5px;
   }
 }

@@ -1,4 +1,4 @@
-import githubLogo from "../assets/svgs/github-mark.svg";
+import githubLogo from "../assets/svgs/github.svg";
 import steamcode from "../assets/images/steamcode.jpg";
 import codeinspace from "../assets/images/codeinspace.jpg";
 import comp from "../assets/images/comp.jpg";
@@ -82,7 +82,9 @@ export default function Portfolio() {
                       alt="Github logo"
                     />
                   </a>
-                  <p className="position-absolute top-50 start-0 p-2">{project.description}</p>
+                  <p className="position-absolute top-50 start-0 p-2">
+                    {project.description}
+                  </p>
                 </div>
               </a>
             </div>

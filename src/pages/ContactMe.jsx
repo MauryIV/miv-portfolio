@@ -24,20 +24,21 @@ export default function ContactMe() {
     }
   };
 
+  const handleInputBlur = (e) => {
+    const { name, value } = e.target;
+    if (name === "senderName" && !value.trim()) {
+      setErrorMessage("Please enter your name");
+    } else if (name === "senderEmail" && !validateEmail(value)) {
+      setErrorMessage("Email is invalid");
+    } else if (name === "senderMessage" && !value.trim()) {
+      setErrorMessage("Please enter a message");
+    } else {
+      setErrorMessage("");
+    }
+  };
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    if (!validateEmail(senderEmail)) {
-      setErrorMessage("Email is invalid");
-      return;
-    }
-    if (!senderName.trim()) {
-      setErrorMessage("Please enter your name");
-      return;
-    }
-    if (!senderMessage.trim()) {
-      setErrorMessage("Please enter a message");
-      return;
-    }
     const mailtoLink = `mailto:mauryhughesiv@gmail.com?subject=Message from ${senderName}&body=Sender's Email: ${senderEmail} \nMessage: ${senderMessage}`;
     window.location.href = encodeURI(mailtoLink);
     setErrorMessage("");
@@ -49,6 +50,7 @@ export default function ContactMe() {
   return (
     <div>
       <form className="form m-2" onSubmit={handleFormSubmit}>
+        <h2 className="pt-2">Contact Me</h2>
         <div className="mb-3">
           <label htmlFor="senderName" className="form-label">
             Name
@@ -58,6 +60,7 @@ export default function ContactMe() {
             value={senderName}
             name="senderName"
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
             type="text"
             placeholder="Please enter your name"
           />
@@ -71,6 +74,7 @@ export default function ContactMe() {
             value={senderEmail}
             name="senderEmail"
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
             type="text"
             placeholder="Please enter your email"
           />
@@ -84,6 +88,7 @@ export default function ContactMe() {
             value={senderMessage}
             name="senderMessage"
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
             rows="4"
             placeholder="Feel free to write me a message, I'll respond shortly!"
           ></textarea>
