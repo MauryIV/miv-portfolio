@@ -57,7 +57,7 @@ If you want to reference this for your own portfolio, would be useful for that. 
 
 ## Tests
 
-Everything was tested on the localhost:3000.
+Everything was tested on the localhost.
 
 <a id="questions"></a>
 
