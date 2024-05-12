@@ -65,7 +65,7 @@ button:focus-visible {
   border-radius: 5px;
 }
 .portImage:hover {
-  filter: hue-rotate(100deg);
+  filter: hue-rotate(180deg);
 }
 
 .portGithub {
