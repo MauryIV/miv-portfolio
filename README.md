@@ -6,7 +6,7 @@
 
 ## Description
 
-This is my portfolio using React to make a simple interactive portfolio.
+This is my portfolio using React to make a simple interactive portfolio.  [Check it out!](https://mauryhughesportfolio.onrender.com)
 
 ## Table of Contents
 
