@@ -72,33 +72,32 @@ export default function Resume() {
           <h3 className="pb-2">Unique Value</h3>
           <p className="paragraph">
             I think there is a lot of value in being part of a team and someone
-            that others can look to for help or even confide in. By being able
-            to help others increases my motivation and overall positivity. I
-            greatly feel that communication is extremely beneficial for a great
-            work environment and for morale of everybody. I like being able to
-            go into my workplace to help and support those around me. I know
-            that by doing that I am creating a place that is more comfortable
-            for me, as well as those I work with. I feel like I have been gifted
-            with an ability to adapt to multiple variations of people and
-            situations, likely because I like to stay positive and spread that
-            positivity to others.
+            that others can look to for help or even confide in. Being able to
+            help others increases my motivation and overall positivity. I feel
+            that communication is extremely beneficial for a great work
+            environment and for morale of everybody. I like being able to go
+            into my workplace to help and support those around me. I know by
+            doing this, I am creating a place that is more comfortable for me,
+            as well as those I work with. I feel like I have been gifted with an
+            ability to adapt to a variety of people and situations, likely
+            because I like to stay positive and spread that positivity to
+            others.
           </p>
           <p className="paragraph">
             Some things that I have always liked about myself, which have made
             integration and adaptivity to most any situation possible, are:
-            being a fast learner, having a thirst for knowledge and being
-            inquisitive. I have found that these traits give me my growth
-            mindset and kept me extremely motivated. As long as I have more I
-            can grow, I stay happy in a work environment. Finally, my attention
-            to detail and thoroughness has really helped me in satisfaction in
-            the time and effort I have put into whatever it is that I am doing.
+            being a fast learner, having a thirst for knowledge, and being
+            inquisitive. I have found that these traits have allowed my growth
+            mindset to develop, and encouraged me to stay motivated. As long as
+            I have more to learn, I stay happy in a work environment. Finally, I
+            have found great satisfation in pouring my attention to detail and
+            thoroughness into whatever it is that I am doing.
           </p>
           <p className="paragraph">
-            Through these practices, I&#39;ve noticed that people see me as a
-            leader. I am hopeful that is truly the case so that we can all grow
-            and improve together. I look forward to continuing to grow and
-            expand my programming knowledge. I&#39;m excited about the
-            possibilities ahead. Thank you for considering my contributions.
+            Through my experiences and challenges I have faced, I see how we all
+            improve and grow together. I look forward to continuing to expand my
+            programming knowledge. I&#39;m excited about the possibilities
+            ahead. Thank you for considering my contributions.
           </p>
         </div>
       </div>
