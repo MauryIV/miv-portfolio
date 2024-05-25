@@ -39,6 +39,10 @@ export default function ContactMe() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    if (!senderName || !senderEmail || !senderMessage) {
+      setErrorMessage("Form not completed")
+      return
+    }
     const mailtoLink = `mailto:mauryhughesiv@gmail.com?subject=Message from ${senderName}&body=Sender's Email: ${senderEmail} \nMessage: ${senderMessage}`;
     window.location.href = encodeURI(mailtoLink);
     setErrorMessage("");
