@@ -9,28 +9,28 @@ import office from "../assets/images/office.jpg";
 const projects = [
   {
     name: "Procrastinot",
-    description: "A time manager web application",
+    description: "A Full-Stack time manager web application using MVC formatting",
     image: codeinspace,
     githubLink: "https://github.com/MauryIV/procrastinot",
     projectLink: "https://procrastinot.onrender.com",
   },
   {
     name: "Find Your Next Book",
-    description: "An app to find books to add to your reading list",
+    description: "Full-Stack app to find books to add to your reading list",
     image: comp,
     githubLink: "https://github.com/MauryIV/find-your-next-book",
     projectLink: "https://find-your-next-book.onrender.com",
   },
   {
     name: "MVC Tech Blog",
-    description: "PostgreSQL MVC Blog",
+    description: "Full-Stack PostgreSQL MVC Blog",
     image: office,
     githubLink: "https://github.com/MauryIV/mvc-tech-blog",
     projectLink: "https://mvc-tech-blog-p2ap.onrender.com",
   },
   {
     name: "IV Social Connection",
-    description: "NoSQL social network",
+    description: "Back-end NoSQL social network using MongoDB/Mongoose",
     image: desk,
     githubLink: "https://github.com/MauryIV/iv-social-connection",
     projectLink:
@@ -38,7 +38,7 @@ const projects = [
   },
   {
     name: "SVG Generator",
-    description: "Description of Project 1",
+    description: "A fun back-end program to make a SVG Logo",
     image: spaceback,
     githubLink: "https://github.com/MauryIV/logo-generator",
     projectLink:
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     name: "ReadMe Generator",
-    description: "My portfolio with contact info",
+    description: "A back-end program using CLI to create a professional readme",
     image: steamcode,
     githubLink: "https://github.com/MauryIV/readme-generator",
     projectLink:
@@ -77,7 +77,7 @@ export default function Portfolio() {
                   alt={project.name}
                 />
                 <div className="card-body text-light position-absolute top-0 start-0 w-100 p-2 d-flex justify-content-between">
-                  <h4 className="align-self-start">{project.name}</h4>
+                  <h4 className="align-self-start text-outline">{project.name}</h4>
                   <a href={project.githubLink} target="_blank">
                     <img
                       src={githubLogo}
@@ -85,7 +85,7 @@ export default function Portfolio() {
                       alt="Github logo"
                     />
                   </a>
-                  <p className="position-absolute top-50 start-0 p-2">
+                  <p className="position-absolute text-outline top-100 start-0 p-2">
                     {project.description}
                   </p>
                 </div>

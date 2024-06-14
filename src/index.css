@@ -17,6 +17,15 @@
   padding-right: 10px;
 }
 
+.text-outline {
+  color: white;
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -103,7 +112,7 @@ button:focus-visible {
 }
 
 .portGithub {
-  width: 42px;
+  width: 56px;
   transition: filter 2s;
 }
 .portGithub:hover {
