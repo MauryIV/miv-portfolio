@@ -8,14 +8,6 @@ import office from "../assets/images/office.jpg";
 
 const projects = [
   {
-    name: "IV Social Connection",
-    description: "NoSQL social network",
-    image: desk,
-    githubLink: "https://github.com/MauryIV/iv-social-connection",
-    projectLink:
-      "https://drive.google.com/file/d/1mio7n9t3i4weeP8Lkux43gO3ZZOJnE-7/view",
-  },
-  {
     name: "Procrastinot",
     description: "A time manager web application",
     image: codeinspace,
@@ -35,6 +27,14 @@ const projects = [
     image: comp,
     githubLink: "https://github.com/MauryIV/note-taker",
     projectLink: "https://note-taker-f38a.onrender.com",
+  },
+  {
+    name: "IV Social Connection",
+    description: "NoSQL social network",
+    image: desk,
+    githubLink: "https://github.com/MauryIV/iv-social-connection",
+    projectLink:
+      "https://drive.google.com/file/d/1mio7n9t3i4weeP8Lkux43gO3ZZOJnE-7/view",
   },
   {
     name: "SVG Generator",
