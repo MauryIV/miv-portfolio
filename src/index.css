@@ -208,7 +208,7 @@ button:focus-visible {
 
 @keyframes flyInBottomRight {
   from {
-    transform: translate(100%, 100%);
+    transform: translate(10%, 100%);
     opacity: 0;
   }
   to {
