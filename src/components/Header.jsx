@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const links = [
     <Link key={1} className="nav-link page page--active" to="/">
-      About Me
-    </Link>,
-    <Link key={2} className="nav-link page page--active" to="/portfolio">
       Portfolio
     </Link>,
-    <Link key={3} className="nav-link page page--active" to="/resume">
-      Resume
+    <Link key={2} className="nav-link page page--active" to="/about-me">
+      About Me
+    </Link>,
+    <Link key={3} className="nav-link page page--active" to="/skills">
+      Skills
     </Link>,
     <Link key={4} className="nav-link page page--active" to="/contact">
       Contact Me
     </Link>,
   ];
   return (
-    <nav className="navbar navbar-expand-lg bg-secondary">
+    <nav id="header" className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <h1 className="flex-grow-1" id="nameTitle">
           Maury Hughes IV

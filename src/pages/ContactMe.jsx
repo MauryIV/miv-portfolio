@@ -40,8 +40,8 @@ export default function ContactMe() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (!senderName || !senderEmail || !senderMessage) {
-      setErrorMessage("Form not completed")
-      return
+      setErrorMessage("Form not completed");
+      return;
     }
     const mailtoLink = `mailto:mauryhughesiv@gmail.com?subject=Message from ${senderName}&body=Sender's Email: ${senderEmail} \nMessage: ${senderMessage}`;
     window.location.href = encodeURI(mailtoLink);
@@ -54,8 +54,8 @@ export default function ContactMe() {
   return (
     <div>
       <form className="form m-2" onSubmit={handleFormSubmit}>
-        <h2 className="pt-2">Contact Me</h2>
-        <div className="mb-3">
+        <h2 className="pt-2 form-line delay-1">Contact Me</h2>
+        <div className="mb-3 form-line delay-2">
           <label htmlFor="senderName" className="form-label">
             Name
           </label>
@@ -69,7 +69,7 @@ export default function ContactMe() {
             placeholder="Please enter your name"
           />
         </div>
-        <div className="mb-3">
+        <div className="mb-3 form-line delay-3">
           <label htmlFor="email" className="form-label">
             Email
           </label>
@@ -83,7 +83,7 @@ export default function ContactMe() {
             placeholder="Please enter your email"
           />
         </div>
-        <div className="mb-3">
+        <div className="mb-3 form-line delay-4">
           <label htmlFor="message" className="form-label">
             Message
           </label>
@@ -97,7 +97,11 @@ export default function ContactMe() {
             placeholder="Feel free to write me a message, I'll respond shortly!"
           ></textarea>
         </div>
-        <button id="sendEmail" type="submit" className="btn btn-primary">
+        <button
+          id="sendEmail"
+          type="submit"
+          className="btn btn-primary form-line delay-5"
+        >
           Submit
         </button>
       </form>

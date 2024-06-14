@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#nameTitle {
+  padding-right: 10px;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -22,12 +26,37 @@ a:hover {
   color: #535bf2;
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
-  margin: 0;
+  color: black;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: linear-gradient(to bottom right, #fffb00, #33146c);
+  background-size: 150% 150%;
+  background-attachment: fixed;
+  animation: gradientAnimation 16s linear infinite alternate;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+#header {
+  border-bottom: solid #42f0de 16px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -63,6 +92,7 @@ button:focus-visible {
   height: 200px;
   object-fit: cover;
   border-radius: 5px;
+  border: solid #42f0de 2px;
 }
 
 .hoverBox {
@@ -151,4 +181,169 @@ button:focus-visible {
   .nav-item {
     margin-inline: 5px;
   }
+}
+
+/* animations for skills page */
+@keyframes fallIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flyInBottomLeft {
+  from {
+    transform: translate(-100%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes flyInBottomRight {
+  from {
+    transform: translate(100%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSequential {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.skill-item {
+  opacity: 0; /* Start with hidden elements */
+}
+
+.fall-in {
+  animation: fallIn 2s ease-out forwards;
+}
+
+.fly-in-bottom-left {
+  animation: flyInBottomLeft 3s ease-out forwards;
+}
+
+.fly-in-bottom-right {
+  animation: flyInBottomRight 4s ease-out forwards;
+}
+
+.resume-item {
+  opacity: 0;
+  animation: fadeIn 4s ease-out forwards;
+}
+
+#profile-pic {
+  border-radius: 4px;
+  opacity: 0;
+  animation: fadeIn 7s ease-out forwards;
+}
+
+.paragraph {
+  opacity: 0;
+}
+
+.paragraph.fade-in {
+  animation: fadeInSequential 4s ease-out forwards;
+}
+
+.form-line {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: slideInFromBottom 2s ease-out forwards;
+}
+
+.form-line.delay-1 {
+  animation-delay: 0s;
+}
+
+.form-line.delay-2 {
+  animation-delay: 1s;
+}
+
+.form-line.delay-3 {
+  animation-delay: 2s;
+}
+
+.form-line.delay-4 {
+  animation-delay: 3s;
+}
+
+.form-line.delay-5 {
+  animation-delay: 4s;
+}
+
+.project-card {
+  opacity: 0;
+  transform: scale(0);
+  animation: scaleIn 4s ease-out forwards;
+}
+
+.project-card.delay-1 {
+  animation-delay: 0s;
+}
+
+.project-card.delay-2 {
+  animation-delay: 1s;
+}
+
+.project-card.delay-3 {
+  animation-delay: 2s;
+}
+
+.project-card.delay-4 {
+  animation-delay: 2s;
+}
+
+.project-card.delay-5 {
+  animation-delay: 1s;
+}
+
+.project-card.delay-6 {
+  animation-delay: 0s;
 }

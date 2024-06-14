@@ -60,7 +60,10 @@ export default function Portfolio() {
       <h2>Portfolio</h2>
       <div className="row">
         {projects.map((project, index) => (
-          <div key={index} className="col-lg-4 col-md-6 mb-4">
+          <div
+            key={index}
+            className={`col-lg-4 col-md-6 mb-4 project-card delay-${index + 1}`}
+          >
             <div className="card h-100 position-relative">
               <a
                 className="hoverBox"

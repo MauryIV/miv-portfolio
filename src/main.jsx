@@ -6,7 +6,7 @@ import "./index.css";
 import AboutMe from "./pages/AboutMe.jsx";
 import ContactMe from "./pages/ContactMe.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
-import Resume from "./pages/Resume.jsx";
+import Skills from "./pages/Skills.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,19 +15,19 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <Portfolio />,
+      },
+      {
+        path: "about-me",
         element: <AboutMe />,
+      },
+      {
+        path: "skills",
+        element: <Skills />,
       },
       {
         path: "contact",
         element: <ContactMe />,
-      },
-      {
-        path: "portfolio",
-        element: <Portfolio />,
-      },
-      {
-        path: "resume",
-        element: <Resume />,
       },
     ],
   },
