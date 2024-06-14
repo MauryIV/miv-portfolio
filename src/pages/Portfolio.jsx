@@ -15,18 +15,18 @@ const projects = [
     projectLink: "https://procrastinot.onrender.com",
   },
   {
+    name: "Find Your Next Book",
+    description: "An app to find books to add to your reading list",
+    image: comp,
+    githubLink: "https://github.com/MauryIV/find-your-next-book",
+    projectLink: "https://find-your-next-book.onrender.com",
+  },
+  {
     name: "MVC Tech Blog",
     description: "PostgreSQL MVC Blog",
     image: office,
     githubLink: "https://github.com/MauryIV/mvc-tech-blog",
     projectLink: "https://mvc-tech-blog-p2ap.onrender.com",
-  },
-  {
-    name: "Note Taker",
-    description: "Simple web app for taking notes",
-    image: comp,
-    githubLink: "https://github.com/MauryIV/note-taker",
-    projectLink: "https://note-taker-f38a.onrender.com",
   },
   {
     name: "IV Social Connection",
