@@ -1,4 +1,5 @@
 import MyResume from "../assets/pdfs/MauryHughesResume.pdf";
+import MyTechResume from "../assets/pdfs/MauryHughesTechnicalResume.pdf";
 import { useState, useEffect } from "react";
 
 export default function Skills() {
@@ -91,8 +92,13 @@ export default function Skills() {
         <div className={prettyLayout ? "col" : ""}>
           <h2>Resume</h2>
           <ul>
+            <li className="pt-3 fs-5 fw-bold text-decoration-underline resume-item">
+              <a className="resume" href={MyTechResume} download>
+                Download my technical resume
+              </a>
+            </li>
             <li className="pt-3 fs-5 fw-bold text-decoration-underline pb-4 resume-item">
-              <a id="resume" href={MyResume} download>
+              <a className="resume" href={MyResume} download>
                 Download my resume
               </a>
             </li>

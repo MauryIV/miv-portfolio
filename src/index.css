@@ -119,10 +119,10 @@ button:focus-visible {
   filter: invert(100%);
 }
 
-#resume {
+.resume {
   color: #7728a4;
 }
-#resume:hover {
+.resume:hover {
   color: #42f0de;
 }
 
@@ -206,7 +206,7 @@ button:focus-visible {
 
 @keyframes flyInBottomLeft {
   from {
-    transform: translate(-100%, 100%);
+    transform: translate(-10%, 100%);
     opacity: 0;
   }
   to {
