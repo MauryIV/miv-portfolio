@@ -1,5 +1,5 @@
-import MyResume from "../assets/pdfs/MauryHughesResume.pdf";
-import MyTechResume from "../assets/pdfs/MauryHughesTechnicalResume.pdf";
+import MyResume from "../assets/pdfs/MauryHughesIV2025.pdf";
+import MyTechResume from "../assets/pdfs/MauryHughesIVTechnicalResume2025.pdf";
 import { useState, useEffect } from "react";
 
 export default function Skills() {
